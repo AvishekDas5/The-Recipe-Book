@@ -1,0 +1,10 @@
+{
+  "name": "Recipes",
+  "version": "1.0.0",
+  "description": "Searches recipe",
+  "main": "index.js",
+  "author": "Avishek Das",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {}
+}
