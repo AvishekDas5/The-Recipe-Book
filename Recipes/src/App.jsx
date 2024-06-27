@@ -9,8 +9,8 @@ const RecipeSearch = () => {
   const [error, setError] = useState(null);
   const [darkMode, setDarkMode] = useState(false);
 
-  const appId = 'a15aee9f';
-  const appKey = '2a569fb676096a6d86e30a4b47b74f63';
+  const appId = secrets.APP_ID;
+  const appKey = secrets.APP_KEY;
   const recipesPerPage = 12;
 
   useEffect(() => {
